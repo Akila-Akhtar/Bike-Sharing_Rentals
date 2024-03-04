@@ -7,7 +7,7 @@ import streamlit as st
 sns.set(style='dark')
 
 # Menyiapkan data hari
-hari = pd.read_csv("day.csv")
+hari = pd.read_csv("Dashboard/day.csv")
 hari.head()
 
 # Menghapus kolom yang tidak diperlukan
